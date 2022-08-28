@@ -1,47 +1,46 @@
+// let ingresarNumero = parseInt (prompt ("Ingresar Numero"));
+// for (let i = 1; i <= 10; i++) {
+//     let resultado = ingresarNumero * i ;
+//     alert(ingresarNumero + " x " +  i + " = " + resultado);
+// }
+//   for(let turno = 1; turno <=6; turno++){
+//     let nombre = prompt("Ingrese su nombre para asignarle el turno");
+//     let mensaje = `Turno #${turno} Nombre: ${nombre}`;
+//     alert(mensaje);
+//   }
 
-// if(2){
-//     console.log("entramos");
+// alert("se terminaron los turnos de hoy");
+// for(let i = 0; i <= 10; i++){
+//     if(i === 5){
+//         continue
+//     }
+//     console.log(i);
 // }
 // console.log("terminamos");
-
-// let respuesta = prompt("terminaste la tarea");
-// if(respuesta.toLowerCase() === "si"){
-//     alert("Puedes salir a jugar");
-// }else{
-//     alert("Te quedas en casa");
-// 
-// let edad = parseInt(prompt("ingresa tu edad"));
-// if(edad < 15){
-//     alert ("no puedes entrar");
-// }else if(edad <= 17){
-//     alert ("puedes ingresar con un mayor responsable");
-// }else{
-//     alert ("bienvenido a la fiesta")
-//}
-//    let respuestaTarea = prompt("terminaste la tarea");
-//    let respuestaCasa = prompt("ordenaste tu pieza");
-//    if(respuestaTarea.toLowerCase() === "si" && respuestaCasa.toLowerCase() === "si"){
-//     alert("puedes ir a fútbol");
-//    }else{
-//     alert("te quedas en casa");
-//    }
-//  let respuestaTarea = prompt("terminaste la tarea");
-//    let respuestaCasa = prompt("ordenaste tu pieza");
-//    if(respuestaTarea.toLowerCase() === "si" || respuestaCasa.toLowerCase() === "si"){
-//     alert("puedes ir a fútbol");
-//    }else{
-//     alert("te quedas en casa");
-//    }
-// let nombre = prompt("Ingresa el nombre");
-// if((nombre !== "") && (nombre === "cesar" || nombre === "CESAR")){
-//     alert("Hola Cesar");
-// }else{
-//     alert("valor incorrecto");
+// let usuario = prompt("ingrese nombre de usuario");
+// while(usuario != "ces"){
+//     alert("usuario incorrecto");
+//     usuario = prompt("Ingrese nombre de usuario");
 // }
+// alert("Bienvenido");
+let entrada = prompt("de que equipo sos");
+ 
+    switch (entrada){
+        case "colon":
+            alert("sos campeón");
+            break;
+        case "boca":
+            alert("sos bostero");
+            break;
+        case "river": 
+            alert("sos gallina");
+            break;
+        case "union":
+            alert("sos pecho frío");
+            break;
+        default:
+            alert("no existis");
+            break;
+  
+}
 
-  let hincha = prompt("Sos Tatengue");
-  if(hincha.toLowerCase() === "si"){
-    alert("nunca saliste campeón")
-  }else{
-    alert("no me mientas, la tenés adentro");
-  }
